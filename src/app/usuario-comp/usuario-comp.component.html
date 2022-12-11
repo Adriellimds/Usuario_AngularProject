@@ -1,0 +1,17 @@
+<h1>Listagem de Usuarios</h1>
+<div class="Boxtable">
+  <table class="TableUsers">
+    <tr class="tabletitle">
+      <td class="items">ID</td>
+      <td class="items">NOME</td>
+      <td class="items">USER NAME</td>
+      <td class="items">EMAIL</td>
+    </tr>
+    <tr *ngFor="let forUsuario of Usuario">
+      <td><span class="id">{{forUsuario.id}}</span></td>
+      <td><span class="nome">{{forUsuario.name}}</span></td>
+      <td><span class="nasc"> {{forUsuario.username}}</span></td>
+      <td><span class="casa">{{forUsuario.email}}</span></td>
+    </tr>
+  </table>
+</div>

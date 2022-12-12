@@ -6,3 +6,10 @@
 h1 {
   text-transform: uppercase;
 }
+.title {
+  display: flex;
+  flex-direction: row;
+}
+.title img {
+  margin-left: 2rem;
+}

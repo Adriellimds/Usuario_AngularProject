@@ -2,4 +2,16 @@
 body {
   background-color: #f0fffc;
   margin-top: 5rem;
+  display: grid;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 6rem;
+}
+img {
+  margin-left: 1rem;
+  width: 8rem;
 }
